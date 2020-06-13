@@ -56,8 +56,6 @@ Metricbeat is installed on the server to periodically collect metric and statist
 
 The configuration details of each machine may be found below
 
-## table
-
 |Name    |Function   |IP Address   |Operating System   |
 |--------|-----------|-------------|-------------------|
 |Jump-Box|Gateway    |10.0.0.4     | Linux             |
@@ -77,7 +75,6 @@ Machines within the network can only be accessed by the jump box and other machi
 Which machine did you allow to access your ELK VM? What was its IP address?_
 
 A summary of the access policies in place can be found in the table below.
- ## table
  
 | Name   | Publicly Accessible  | Allowed IP address   |
 |--------|----------------------|----------------------|
@@ -117,8 +114,8 @@ Navigate to the ansible configuration file under the path /etc/ansible to regist
 
 ![](images/ansible%20config file.png)
 
-    Test ansible connection use by running the ansible command below. 
-	        ansible -m ping all
+Test ansible connection use by running the ansible command below. 
+     ansible -m ping all
 
 ## Elk Configuration
 
