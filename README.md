@@ -175,7 +175,7 @@ Metricbeat on DVWA-VM1, DVWA-VM2 and DVWA-VM4
 
 YAML playbook file was used to create ansible playbook to install docker and configure VMs with DVWA web app
 
-1. Create a YAML playbook file that will be used for web app configuration
+Create a YAML playbook file that will be used for web app configuration
     The playbook files are located under the path /etc/ansible/webserver-playbook.yml
     Use the Ansible apt module to install docker.io and python-pip
  - name: docker.io
