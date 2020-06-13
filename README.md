@@ -13,7 +13,7 @@ Redundancy
 Description of the Topology
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
-![](images/Network%20diagram.png)
+![](Images/Network%20diagram.png)
 
 Jump box
 	Region: East US
